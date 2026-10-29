@@ -1,7 +1,7 @@
-# ExaWind TIOGA utilities
+# TIOGA utilities
 
 This repository contains utilities to demonstrate overset connectivity within
-the [ExaWind](https://github.com/exawind) project using
+the [Kynema](https://github.com/kynema) project using
 [TIOGA](https://github.com/jsitaraman/tioga) between unstructured meshes in
 Exodus-II format using [STK](https://github.com/trilinos/Trilinos) and
 block-structured meshes using [AMReX](https://github.com/AMReX-Codes/amrex)
@@ -26,14 +26,14 @@ The following dependencies must be available on your system:
 
 ```console
 # Clone the git repository
-git clone --recurse-submodules -b exawind git@github.com:sayerhs/tioga_utils.git
+git clone --recurse-submodules git@github.com:sayerhs/tioga_utils.git
 
 # In an already cloned repository
 git fetch origin
-git checkout --track origin/exawind
+git checkout --track origin/main
 git submodule update --init --recursive
 ```
 
 We recommend using
-[exawind-builder](https://exawind-builder.readthedocs.io/en/latest/) to
+[kynema-manager](https://github.com/kynema/kynema-manager) to
 configure and build the dependencies as well as `tioga-utils`.
